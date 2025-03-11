@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <script src="https://kit.fontawesome.com/3e74aebed6.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Instagram Feed</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="d-flex justify-content-start justify-content-space-between">
+      <i class="fa-brands fa-instagram"></i>
+      <p>Instagram</p>
+    </div>
+    <form class="container-fluid justify-content-end">
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Crear un nuevo post
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Crea un post</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Publica</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-gear"></i>
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      
+    </form>
+
+  </nav>
+
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <div class="d-flex flex-column align-items-center justify-content-center">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+          role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+          role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+      </li>
+
+
+
+
+
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <div class="container mt-4">
+          <div class="row g-4">
+            <div class="col-12 col-md-4">
+              <div class="card shadow-sm border-0">
+                <h5 class="card-title">Yo, cuando aún no tomé café</h5>
+                <p class="card-text text-muted">07/03/2025</p>
+                <img
+                  src="https://imgs.search.brave.com/Q8GmreufhSz-icEVaO3Gbb3JwALvCkuKrC5Ijrzqbeo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubmF0aW9uYWxn/ZW9ncmFwaGljLmVz/L2ZpbGVzL3N0eWxl/cy9pbWFnZV8zMjAw/L3B1YmxpYy83NTU1/Mi5uZ3N2ZXJzaW9u/LjE0MjIyODU1NTMz/NjAud2VicD93PTE2/MDAmaD0xMDY3"
+                  class="card-img-top" alt="Imagen 1">
+                <div class="card-body">
+                  <p class="card-text"><strong>834 Likes</strong></p>
+                  <p class="card-text">Si me ves con las orejas para atrás, lléname la taza, humano.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 col-md-4">
+              <div class="card shadow-sm border-0">
+                <h5 class="card-title">Tacos are good!!!</h5>
+                <p class="card-text text-muted">07/03/2025</p>
+                <img
+                  src="https://imgs.search.brave.com/NqNttzUHf48FOHysnagLZeJ8D5giKbUyEGliIOkDUOs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oNy5h/bGFteS5jb20vY29t/cC9DNVAwTTcvdGV4/LW1leC10YWNvcy1D/NVAwTTcuanBn"
+                  class="card-img-top" alt="Imagen 2">
+                <div class="card-body">
+                  <p class="card-text"><strong>532 Likes</strong></p>
+                  <p class="card-text">Si me ves con las orejas para atrás, lléname el taco, humano!</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 col-md-4">
+              <div class="card shadow-sm border-0">
+                <h5 class="card-title">Nopal para tus tacos</h5>
+                <p class="card-text text-muted">07/03/2025</p>
+                <img
+                  src="https://imgs.search.brave.com/cXMc3-X9RtC2yIQobNl8PZJRRHtfqAVGzmo-x-rUHY0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZmluZWRpbmluZ2xv/dmVycy5jb20vZXMv/c2l0ZXMvZy9maWxl/cy94a25mZGsxNzA2/L2ZpbGVzL3N0eWxl/cy9hcnRpY2xlXzEy/MDBfODAwX2ZhbGxi/YWNrL3B1YmxpYy8y/MDIxLTA4L25vcGFs/ZXMtYW5kcmV3LWNv/b3AtdW5zcGxhc2gu/anBnP2l0b2s9ZE5O/TzJuSFM"
+                  class="card-img-top" alt="Imagen 3">
+                <div class="card-body">
+                  <p class="card-text"><strong>123 Likes</strong></p>
+                  <p class="card-text">Ponte de esto en tu taco, pero sácale los pinchos!!!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+  </div>
+
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><div class="container mt-4">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0">
+          <h5 class="card-title">Se te mueren hasta los cactus?</h5>
+          <p class="card-text text-muted">07/03/2025</p>
+          <img
+            src="https://imgs.search.brave.com/l5NYBurDcytpYnOtobW18EMF6ZpO8iluJM1KLqavkzg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIx/OTI5Njk3My9waG90/by9hcm1lZC1jYWN0/dXMuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXVyelVoVzYt/SU1QTzh3cmtMSGo0/OE5MT01RSi1tQl9U/WWxDUTVpbWx1OU09"
+            class="card-img-top" alt="Imagen 1">
+          <div class="card-body">
+            <p class="card-text"><strong>834 Likes</strong></p>
+            <p class="card-text">Prueba con un Tamagochi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0">
+          <h5 class="card-title">Olas y sol</h5>
+          <p class="card-text text-muted">07/03/2025</p>
+          <img
+            src="https://imgs.search.brave.com/_JhA79lK2kXMu_NqOMBWbqrNGfKt4ZLDhXpTAD9cVu8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTkw/MTU2MTMwL2VzL2Zv/dG8vdmVyYW5vLWVu/LXVuLWJhcmNvLWVu/LWxhLWNvc3RhLWJy/YXZhLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz11LUltdWtS/dUotSE02bHRkWC1E/MFl3SURGdFEyMjlk/dktGdUpEM192M2VB/PQ"
+            class="card-img-top" alt="Imagen 2">
+          <div class="card-body">
+            <p class="card-text"><strong>532 Likes</strong></p>
+            <p class="card-text">Livin' la vida loca</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0">
+          <h5 class="card-title">I <3 BCN </h5>
+              <p class="card-text text-muted">07/03/2025</p>
+              <img
+                src="https://imgs.search.brave.com/uuczs63US06frOmG2b9e-8XyOVuH4zd8Meu6OhJ6Tk8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTc1/NDUxMTI1L2VzL2Zv/dG8vcGFycXVlLWcl/QzMlQkNlbGwuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVh2/NXVJZzh2RUZHZVI0/SVlhZnBBWWRobllC/QkhDS0dEdm9mWnlk/a0JPVGc9"
+                class="card-img-top" alt="Imagen 3">
+              <div class="card-body">
+                <p class="card-text"><strong>123 Likes</strong></p>
+                <p class="card-text">Viva Barcelona y sus habitantes</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0">
+          <h5 class="card-title">Dieta nipona, o mediterranea?</h5>
+          <p class="card-text text-muted">07/03/2025</p>
+          <img
+            src="https://imgs.search.brave.com/Yp_667ukk8CbR2WExnazTnNsZEj0YgZ3D4S3Bo6iw7M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2UyL1dha2FtZV9j/aGV6X01pa2FfU3Vz/aGlfLkpQRw"
+            class="card-img-top" alt="Imagen 1">
+          <div class="card-body">
+            <p class="card-text"><strong>834 Likes</strong></p>
+            <p class="card-text">El alga wakame es un alimento rico en vitamina A, B, K1, yodo y muchos otras
+              propiedades!!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0">
+          <h5 class="card-title">Coral cerebro</h5>
+          <p class="card-text text-muted">07/03/2025</p>
+          <img
+            src="https://imgs.search.brave.com/PvbPjJ2-57pKe89ZmZ_5TheUxqXCEIPu6s2BJ5OHG7g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy81/LzUxL0NvbHBvcGh5/bGxpYV9uYXRhbnNf/KEJvdWxkZXJfQnJh/aW5fQ29yYWwpX2Vu/dGlyZV9jb2xvbnku/anBn"
+            class="card-img-top" alt="Imagen 2">
+          <div class="card-body">
+            <p class="card-text"><strong>532 Likes</strong></p>
+            <p class="card-text">Colpophyllia natans</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card shadow-sm border-0">
+          <h5 class="card-title">Calles teñidas por sus habitantes</h5>
+          <p class="card-text text-muted">07/03/2025</p>
+          <img
+            src="https://imgs.search.brave.com/iVn25SZ1UKPW7nvWZQkd32EuouyS_8TjjNecIwUxrTs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGVkcmVzZGVnaXJv/bmEuY29tL0ltYXRn/ZXM5L2FydF9tdXJh/bF9zZXBfMmEuanBn"
+            class="card-img-top" alt="Imagen 2">
+          <div class="card-body">
+            <p class="card-text"><strong>123 Likes</strong></p>
+            <p class="card-text">La efimeridad del graffiti a veces realza el valor de algunas obras</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
